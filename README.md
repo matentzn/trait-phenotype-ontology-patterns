@@ -31,6 +31,7 @@ We are losely organised through bi-monthly meetings and discussions on this GitH
 | Violeta Munoz Fuentes | @viomunoz | EMBL-EBI, IMPC | |
 | Meghan Balk |  |  | |
 | Jim Balhoff | @balhoff  |  | |
+| Chris Mungall | @cmungall  | LBNL | |
 | Cari Park |  |  | |
 | Elliot Sollis |  |  | |
 | Elissa Chesler |  |  | |
