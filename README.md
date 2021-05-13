@@ -44,3 +44,4 @@ We are losely organised through bi-monthly meetings and discussions on this GitH
 | Kent Shefchek |  |  | |
 | Stan Laulederkind |  |  | |
 | Jennifer Smith |  |  | |
+| Ramona Walls | @ramonawalls | Critical Path Institute, U. of Arizoan | Coordinator, ontology engineer, data scientist |
