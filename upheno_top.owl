@@ -1,0 +1,639 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://upheno.org/trait-playground#"
+     xml:base="http://upheno.org/trait-playground"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://upheno.org/trait-playground"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017578 -->
+
+    <owl:ObjectProperty rdf:about="http://upheno.org/trait-playground/TPLAY_0017578">
+        <rdfs:subPropertyOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017579"/>
+        <rdfs:label>is characteristic of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017579 -->
+
+    <owl:ObjectProperty rdf:about="http://upheno.org/trait-playground/TPLAY_0017579">
+        <rdfs:label>is characteristic of part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017581 -->
+
+    <owl:ObjectProperty rdf:about="http://upheno.org/trait-playground/TPLAY_0017581">
+        <rdfs:label>has effect qualifier</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017548 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017548">
+        <rdfs:label>characteristic/quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017549 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017549">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017548"/>
+        <rdfs:label>material entity quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017550 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017550">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017548"/>
+        <rdfs:label>process quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017551 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017551">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017549"/>
+        <rdfs:label>size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017552 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017552">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017548"/>
+        <rdfs:label>aggregate material entity quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017553 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017553">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017552"/>
+        <rdfs:label>amount</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017554 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017554">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017549"/>
+        <rdfs:label>colour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017555 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017555">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017548"/>
+        <rdfs:label>aggregate process quality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017556 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017556">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017555"/>
+        <rdfs:label>occurrence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017557 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017557">
+        <rdfs:label>effect qualifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017558 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017558">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017557"/>
+        <rdfs:label>changed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017559 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017559">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017558"/>
+        <rdfs:label>increased</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017560 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017560">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017558"/>
+        <rdfs:label>decreased</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017561 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017561">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017558"/>
+        <rdfs:label>abnormal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017562 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017562">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017558"/>
+        <rdfs:label>pathological</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017563 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017563">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017557"/>
+        <rdfs:label>unchanged</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017564 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017564">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017557"/>
+        <rdfs:label>qualitative</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017565 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017565">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017554"/>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017564"/>
+        <rdfs:label>red</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017566 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017566">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017564"/>
+        <rdfs:label>normal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017567 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017567">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017554"/>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017564"/>
+        <rdfs:label>green</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017568 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017568">
+        <rdfs:label>organism aspect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017569 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017569">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017568"/>
+        <rdfs:label>anatomical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017570 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017570">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017568"/>
+        <rdfs:label>biological process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017571 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017571">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017569"/>
+        <rdfs:label>tail</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017572 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017572">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017569"/>
+        <rdfs:label>eye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017573 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017573">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017570"/>
+        <rdfs:label>cell proliferation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017574 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017574">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017548"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017579"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017568"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:comment>phenotypic characteristic</rdfs:comment>
+        <rdfs:label>trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017575 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017575">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017551"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017578"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017572"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:label>eye size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017576 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017576">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017554"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017578"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017572"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:label>eye colour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017577 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017577">
+        <rdfs:label>all</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017580 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017580">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017554"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017578"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017572"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017581"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017561"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:label>abnormal eye colour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017582 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017582">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017554"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017578"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017572"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017581"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017558"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:label>changed eye colour</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017583 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017583">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017553"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017578"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017572"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017581"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017559"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017581"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017561"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:label>abnormally increased number of eyes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017585 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017585">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017586"/>
+        <rdfs:label>one or more</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017586 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017586">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017557"/>
+        <rdfs:label>numeric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017587 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017587">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017548"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017579"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017568"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017581"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017557"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:label>phenotypic effect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017588 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017588">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017548"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017579"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017568"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017581"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017561"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:label>abnormal phenotypic effect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017589 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017589">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017554"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017578"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017572"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017581"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017565"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:label>red eyes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017591 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017591">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017554"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017578"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017572"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017581"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017561"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017581"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017565"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:label>abnormally red eyes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017592 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017592">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017593"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017578"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017573"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017581"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017559"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017581"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017561"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:label>abnormally increased rate of cell proliferation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017593 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017593">
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017550"/>
+        <rdfs:label>rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017594 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017594">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017549"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017578"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017572"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:label>eye trait</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://upheno.org/trait-playground/TPLAY_0017595 -->
+
+    <owl:Class rdf:about="http://upheno.org/trait-playground/TPLAY_0017595">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://upheno.org/trait-playground/TPLAY_0017549"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017578"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017572"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://upheno.org/trait-playground/TPLAY_0017581"/>
+                        <owl:someValuesFrom rdf:resource="http://upheno.org/trait-playground/TPLAY_0017557"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://upheno.org/trait-playground/TPLAY_0017577"/>
+        <rdfs:label>phenotypic effect on the eye</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
